@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <!-- BATTERY -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/batt.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.488 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- INSTRUMENTS LIGHT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/instr-light.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.462 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- NAVIGATION LIGHT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/nav-light.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.436 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- STROBE LIGHT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/str-light.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.410 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- LANDING LIGHT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/land-light.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.488 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TAXI LIGHT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/taxi-light.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.462 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.436 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.410 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.260 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.236 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.212 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.188 </y-m>
+      <z-m> -0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.260 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.236 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.212 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/button.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.188 </y-m>
+      <z-m> -0.191 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>

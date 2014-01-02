@@ -1,0 +1,62 @@
+  <!-- Fuel pump -->
+  <animation>
+    <type>pick</type>
+    <object-name>fuel-pump</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/engines/engine/fuel-pump</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>/sim/sound/switch</property>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>fuel-pump</object-name>
+    <property>/controls/engines/engine/fuel-pump</property>
+    <factor>  35 </factor>
+    <min-deg>  0 </min-deg>
+    <max-deg> 35 </max-deg>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <!-- generator -->
+  <animation>
+    <type>pick</type>
+    <object-name>generator</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/electric/engine/generator</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>/sim/sound/switch</property>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>generator</object-name>
+    <property>/controls/electric/engine/generator</property>
+    <factor>  35 </factor>
+    <min-deg>  0 </min-deg>
+    <max-deg> 35 </max-deg>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+

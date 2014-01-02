@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>onoff.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>on-off</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>on-off</object-name>
+    <emission>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.80 </red>
+      <green> 0.50 </green>
+      <blue>  0.50 </blue>
+    </emission>
+  </animation>
+
+  <!-- Landing -->
+  <animation>
+    <type>pick</type>
+    <object-name>on-off</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/lighting/landing-lights</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>/sim/sound/switch</property>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>on-off</object-name>
+    <property>/controls/lighting/landing-lights</property>
+    <factor>  35 </factor>
+    <min-deg>  0 </min-deg>
+    <max-deg> 35 </max-deg>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+ 
+</PropertyList>
