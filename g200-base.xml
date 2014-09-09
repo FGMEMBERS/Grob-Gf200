@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <sim include="Systems/views.xml">
+
+    <description>Grob Gf 200 (YASim)</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+
+    <fuel-fraction> 1 </fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/Grob-Gf200/g200-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/Grob-Gf200/Sounds/g200-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/Grob-Gf200/Models/g200.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <systems>
+      <autopilot>
+        <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kap140/autopilot/KAP140.xml</path>
+      </autopilot>
+      <property-rule n="100">
+        <name>FiltersOnly</name>
+        <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kap140/autopilot/NAVandGSfilters.xml</path>
+      </property-rule>
+      <electrical>
+        <!-- null electrical system path here so we can use a nasal based -->
+        <!-- model defined later in the nasal section of this file. -->
+        <path></path>
+      </electrical>
+    </systems>
+    
+    <flaps>
+      <setting> 0.00 </setting>
+      <setting> 0.50 </setting> <!-- 15 deg -->
+      <setting> 1.00 </setting> <!-- 30 deg -->
+    </flaps>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                      <!-- 0 immat -->
+        <int type="int" n="1">  0 </int>                                      <!-- 1 immat -->
+        <int type="int" n="2">  0 </int>                                      <!-- 2 immat -->
+        <int type="int" n="3">  0 </int>                                      <!-- 3 immat -->
+        <int type="int" n="4">  0 </int>                                      <!-- 4 immat -->
+        <int type="int" n="5">  0 </int>                                      <!-- 5 immat -->
+        <int type="bool" n="6" alias="controls/smoke"> 0 </int>               <!-- 6 smoke/bomb/torpedo -->
+        <int type="int" n="7">  0 </int>                                      <!-- 7 color -->
+        <int n="8" alias="/systems/electrical/outputs/nav-lights">  0 </int>  <!-- 8 nav-lights -->
+        <int n="9" alias="/sim/model/lights/beacon/state">  false </int>      <!-- 9 strobe-lights -->
+        <int n="10" alias="/controls/electric/key-pos">  0 </int>             <!-- 10 key position -->
+        <float n="2" alias="/position/gear-agl-m">  0 </float>                <!-- 11 altitude for MP shadow -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>  
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>g200</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/g200-menu.xml"/>
+
+  </sim>
+
+  <engines>
+    <engine n="0">
+      <rpm type="float">0</rpm>
+      <egt-degC type="float">0</egt-degC>
+      <oil-temperature-degC type="float">0</oil-temperature-degC>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Systems/g200-keyboard.xml"/>
+  </input>
+
+  <controls>
+    <lighting>
+      <nav-lights type="bool">false</nav-lights>
+      <instrument-lights type="bool">false</instrument-lights>
+      <landing-lights type="bool">false</landing-lights>
+    </lighting>
+    <gear>
+      <brake-parking>1</brake-parking>
+    </gear>
+  </controls>
+  
+  <systems>
+    <electrical>
+      <outputs>
+        <KNS80 type="string">28</KNS80>
+        <comm type="string">28</comm>
+      </outputs>
+    </electrical>
+  </systems>
+  
+  <autopilot>
+    <KAP140>
+      <settings>
+        <auto-pitch-trim type="bool">true</auto-pitch-trim>
+      </settings>
+    </KAP140>
+  </autopilot>
+  
+  <instrumentation>
+    <attitude-indicator>
+      <config>
+        <tumble-flag archive="y" type="bool">true</tumble-flag>
+      </config>
+    </attitude-indicator>
+    <encoder>
+      <serviceable type="bool">true</serviceable>
+    </encoder>
+    <adf n="0">
+      <ident-audible type="bool">false</ident-audible>
+      <volume type="double">0.7</volume>
+    </adf>
+    <comm n="0">
+      <power-btn type="bool">1</power-btn>
+    </comm>
+    <nav n="0">
+      <volume type="double">0.7</volume>
+    </nav>
+    <comm n="1">
+      <power-btn type="bool">1</power-btn>
+    </comm>
+    <nav n="1">
+      <volume type="double">0.7</volume>
+    </nav>
+    <magnetic-compass>
+      <pitch-offset-deg type="double">-2.7</pitch-offset-deg>
+    </magnetic-compass>
+  </instrumentation>
+  
+  <nasal>
+    <doors>
+      <file>Aircraft/Grob-Gf200/Nasal/doors.nas</file>
+    </doors>
+    <g200>
+      <file>Aircraft/Grob-Gf200/Nasal/liveries.nas</file>
+      <file>Aircraft/Grob-Gf200/Nasal/light.nas</file>
+      <file>Aircraft/Grob-Gf200/Nasal/immat.nas</file>
+    </g200>
+    <kfc200>
+      <file>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kfc200/kfc-200.nas</file>
+    </kfc200>
+    <kr87>
+      <file>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kr87-adf/kr87.nas</file>
+    </kr87>
+    <kns80>
+      <file>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kns80/kns80.nas</file>
+    </kns80>
+    <kap140>
+      <file>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kap140/autopilot/kap140.nas</file>
+      <!--
+           We can set some variables that might be
+           aircraft specific. We must do it after the file
+           to override the ones that are in the .nas file
+      -->
+      <script>
+        <![CDATA[
+          headingNeedleDeflection = "/instrumentation/nav/heading-needle-deflection";
+          gsNeedleDeflection = "/instrumentation/nav/gs-needle-deflection-norm";
+          staticPressure = "systems/static/pressure-inhg";
+        ]]>
+      </script>
+    </kap140>
+  </nasal>
+   
+</PropertyList>

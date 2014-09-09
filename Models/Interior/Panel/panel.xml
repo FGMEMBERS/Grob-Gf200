@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Based on : http://1000aircraftphotos.com/Contributions/KleinBernhard/5660L-3.jpg -->
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>panel2</object-name>
+    
+    <!-- Objets transparents -->
+  </animation>
+
+  <!--KX165 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kx165/kx165-1.xml</path>
+    <offsets> 
+      <x-m> -0.010 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.108 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kx165/kx165-2.xml</path>
+    <offsets> 
+      <x-m> -0.010 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.056 </z-m>
+    </offsets>
+  </model>
+
+  <!-- KR87 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kr87-adf/kr87.xml</path>
+    <offsets> 
+      <x-m> 0.000 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.012 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kr87-adf/ki227-01.xml</path>
+    <offsets> 
+      <x-m>  0.000 </x-m>
+      <y-m> -0.132 </y-m>
+      <z-m>  0.122 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KFC 200 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
+    <offsets> 
+      <x-m> 0.000 </x-m>
+      <y-m> 0.342 </y-m>
+      <z-m> 0.063 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
+    <offsets> 
+      <x-m>  0.000 </x-m>
+      <y-m>  0.342 </y-m>
+      <z-m> -0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KT 76 A -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/KT76A/KT76A.xml</path>
+    <offsets> 
+      <x-m> -0.023 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.126 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KNS 80 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kns80/kns80.xml</path>
+    <offsets> 
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.043 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- EADI -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/EADI/eadi.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m> -0.359 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- EHSI -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/EHSI/ehsi.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m> -0.359 </y-m>
+      <z-m> -0.018 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m> -0.228 </y-m>
+      <z-m>  0.122 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT2 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/alt2/alt2.xml</path>
+    <offsets> 
+      <x-m> 0.000 </x-m>
+      <y-m> 0.443 </y-m>
+      <z-m> 0.063 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KAP 140 -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/kap140/KAP140TwoAxisAlt.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.155 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m> -0.487 </y-m>
+      <z-m> -0.029 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m>  0.443 </y-m>
+      <z-m> -0.029 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets> 
+      <x-m> 0.005 </x-m>
+      <y-m> 0.242 </y-m>
+      <z-m> 0.065 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ADF -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/adf/rmi.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m> -0.026 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- CHRONOMETER -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
+    <offsets> 
+      <x-m> -0.001 </x-m>
+      <y-m>  0.148 </y-m>
+      <z-m>  0.151 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL PRESSURE -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/jauges/fuel-press/fuel-press.xml</path>
+    <offsets> 
+      <x-m> 0.003 </x-m>
+      <y-m> 0.236 </y-m>
+      <z-m> 0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL PRESSURE -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/jauges/oil-press/oil-press.xml</path>
+    <offsets> 
+      <x-m> 0.003 </x-m>
+      <y-m> 0.281 </y-m>
+      <z-m> 0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL TEMPERATURE -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/jauges/oil-temp/oil-temp.xml</path>
+    <offsets> 
+      <x-m> 0.003 </x-m>
+      <y-m> 0.326 </y-m>
+      <z-m> 0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- CHARGE -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/jauges/charge/charge.xml</path>
+    <offsets> 
+      <x-m> 0.003 </x-m>
+      <y-m> 0.371 </y-m>
+      <z-m> 0.141 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MP FUEL -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/MPFuel/MPFuel.xml</path>
+    <offsets> 
+      <x-m> 0.000 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.065 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
+    <offsets> 
+      <x-m>  0.008 </x-m>
+      <y-m>  0.146 </y-m>
+      <z-m> -0.029 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TACHIMETER -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/rpm/tach.xml</path>
+    <offsets> 
+      <x-m>  0.008 </x-m>
+      <y-m>  0.242 </y-m>
+      <z-m> -0.029 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MAGNETO -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/magneto/mags.xml</path>
+    <offsets> 
+      <x-m> -0.019 </x-m>
+      <y-m> -0.533 </y-m>
+      <z-m> -0.193 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- SWITCHS -->
+  <model>
+    <path>Aircraft/Grob-Gf200/Models/Interior/Panel/Instruments/buttons/all-buttons.xml</path>
+  </model>
+  
+</PropertyList>
